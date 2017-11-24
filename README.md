@@ -1,6 +1,6 @@
 # OutlineWithCommandBuffer
 OutlineWithCommandBuffer
 
-使用CommandBuffer实现的描边效果，还通过创建了colorBuffer和depthBuffer来快捷获得深度图。
+使用CommandBuffer实现的描边效果，通过MaterialPropertyBlock让每个描边的Renderer可以有单独的描边颜色。
 
 ![](https://github.com/Tangoyzx/OutlineWithCommandBuffer/blob/master/outline.gif)
